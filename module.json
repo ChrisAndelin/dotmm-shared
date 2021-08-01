@@ -1,59 +1,63 @@
 {
-   "name": "dotmm-shared",
-   "title": "dotmm-shared",
-   "description": "Sharing data across mad mage worlds",
-   "author": "Chris Andelin",
-   "version": "1.0.0",
-   "minimumCoreVersion": "0.5.0",
-   "compatibleCoreVersion":"0.5.5",
-   "packs": [
-    {
-      "name": "dotmm-items",
-      "label": "DotMM Items",
-      "system": "dnd5e",
-      "path": "packs/items.db",
-      "entity": "Item",
-      "module": "dotmm-shared"
-    },
-    {
-      "name": "dotmm-actors",
-      "label": "DotMM Actors",
-      "system": "dnd5e",
-      "path": "packs/actors.db",
-      "entity": "Actor",
-      "module": "dotmm-shared"
-    },
-    {
-      "name": "dotmm-lootnpcs",
-      "label": "DotMM LootNPCs",
-      "system": "dnd5e",
-      "path": "packs/lootnpcs.db",
-      "entity": "Actor",
-      "module": "dotmm-shared"
-    },
-    {
-      "name": "dotmm-scenes",
-      "label": "DotMM Scenes",
-      "system": "dnd5e",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "module": "dotmm-shared"
-    },
-    {
-      "name": "dotmm-journals",
-      "label": "DotMM Journals",
-      "system": "dnd5e",
-      "path": "packs/journals.db",
-      "entity": "JournalEntry",
-      "module": "dotmm-shared"
-    },
-    {
-      "name": "dotmm-teleports",
-      "label": "DotMM Teleports",
-      "system": "dnd5e",
-      "path": "packs/teleports.db",
-      "entity": "JournalEntry",
-      "module": "dotmm-shared"
-    }
-  ]
- }
+  "name": "dotmm-shared",
+  "title": "dotmm-shared",
+  "description": "Sharing data across mad mage worlds",
+  "author": "Chris Andelin",
+  "minimumCoreVersion": "0.5.0",
+  "compatibleCoreVersion":"0.8.8",
+  "packs": [
+  {
+    "name": "dotmm-items",
+    "label": "DotMM Items",
+    "system": "dnd5e",
+    "path": "packs/items.db",
+    "entity": "Item",
+    "module": "dotmm-shared"
+  },
+  {
+    "name": "dotmm-actors",
+    "label": "DotMM Actors",
+    "system": "dnd5e",
+    "path": "packs/actors.db",
+    "entity": "Actor",
+    "module": "dotmm-shared"
+  },
+  {
+    "name": "dotmm-lootnpcs",
+    "label": "DotMM LootNPCs",
+    "system": "dnd5e",
+    "path": "packs/lootnpcs.db",
+    "entity": "Actor",
+    "module": "dotmm-shared"
+  },
+  {
+    "name": "dotmm-scenes",
+    "label": "DotMM Scenes",
+    "system": "dnd5e",
+    "path": "packs/scenes.db",
+    "entity": "Scene",
+    "module": "dotmm-shared"
+  },
+  {
+    "name": "dotmm-journals",
+    "label": "DotMM Journals",
+    "system": "dnd5e",
+    "path": "packs/journals.db",
+    "entity": "JournalEntry",
+    "module": "dotmm-shared"
+  },
+  {
+    "name": "dotmm-teleports",
+    "label": "DotMM Teleports",
+    "system": "dnd5e",
+    "path": "packs/teleports.db",
+    "entity": "JournalEntry",
+    "module": "dotmm-shared"
+  }
+  ],
+  "system": "dnd5e",
+  "url": "https://github.com/ChrisAndelin/dotmm-shared",
+  "version": "0.0.0",
+  "manifest": "https://github.com/ChrisAndelin/dotmm-shared/releases/download/0.0.0/module.json",
+  "download": "https://github.com/ChrisAndelin/dotmm-shared/releases/download/0.0.0/module.zip"
+}
